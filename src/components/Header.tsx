@@ -37,6 +37,7 @@ const Header = () => {
       <nav className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link to="/avvocato-penalista-messina" className="flex flex-col">
           <span className="font-serif text-xl font-bold text-primary md:text-2xl">Avv. Annarita Reina</span>
+          <span className="text-[0.7rem] italic text-muted-foreground">Patrocinante in Cassazione</span>
           <span className="text-xs text-muted-foreground">Studio Legale – Messina</span>
         </Link>
 
