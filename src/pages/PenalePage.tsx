@@ -6,20 +6,20 @@ import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
 
 const faqsPenale = [
-  { question: "Quando è necessario rivolgersi a un avvocato penalista?", answer: "È consigliabile rivolgersi a un avvocato penalista ogni volta che si è coinvolti in un procedimento penale, sia come indagato che come persona offesa. L'assistenza legale è fondamentale fin dalle prime fasi delle indagini preliminari per tutelare adeguatamente i propri diritti." },
-  { question: "Come si svolge la difesa nelle indagini preliminari?", answer: "Durante le indagini preliminari l'avvocato difensore assiste il proprio assistito negli interrogatori, può svolgere indagini difensive, partecipare agli incidenti probatori e presentare memorie difensive al Pubblico Ministero." },
-  { question: "Lo studio opera solo presso il Tribunale di Messina?", answer: "L'attività prevalente si svolge presso il Tribunale di Messina e gli uffici giudiziari della provincia. Per esigenze specifiche, è possibile valutare l'assistenza anche presso altri fori." },
-  { question: "Quali sono i tempi di un procedimento penale?", answer: "I tempi possono variare significativamente in base alla complessità del caso, al numero di imputati e al carico del tribunale competente. L'avvocato potrà fornire una stima più precisa dopo aver esaminato il caso specifico." },
-];
+{ question: "Quando è necessario rivolgersi a un avvocato penalista?", answer: "È consigliabile rivolgersi a un avvocato penalista ogni volta che si è coinvolti in un procedimento penale, sia come indagato che come persona offesa. L'assistenza legale è fondamentale fin dalle prime fasi delle indagini preliminari per tutelare adeguatamente i propri diritti." },
+{ question: "Come si svolge la difesa nelle indagini preliminari?", answer: "Durante le indagini preliminari l'avvocato difensore assiste il proprio assistito negli interrogatori, può svolgere indagini difensive, partecipare agli incidenti probatori e presentare memorie difensive al Pubblico Ministero." },
+{ question: "Lo studio opera solo presso il Tribunale di Messina?", answer: "L'attività prevalente si svolge presso il Tribunale di Messina e gli uffici giudiziari della provincia. Per esigenze specifiche, è possibile valutare l'assistenza anche presso altri fori." },
+{ question: "Quali sono i tempi di un procedimento penale?", answer: "I tempi possono variare significativamente in base alla complessità del caso, al numero di imputati e al carico del tribunale competente. L'avvocato potrà fornire una stima più precisa dopo aver esaminato il caso specifico." }];
+
 
 const PenalePage = () => {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "/avvocato-penalista-messina" },
-      { "@type": "ListItem", position: 2, name: "Diritto Penale", item: "/avvocato-diritto-penale-messina" },
-    ],
+    { "@type": "ListItem", position: 1, name: "Home", item: "/avvocato-penalista-messina" },
+    { "@type": "ListItem", position: 2, name: "Diritto Penale", item: "/avvocato-diritto-penale-messina" }]
+
   };
 
   return (
@@ -70,8 +70,8 @@ const PenalePage = () => {
               <Scale className="h-8 w-8 text-secondary" />
               <h2 className="font-serif text-2xl font-bold text-primary">Procedimenti presso il Tribunale di Messina</h2>
             </div>
-            <p className="leading-relaxed text-muted-foreground">
-              L'Avv. Annarita Reina opera con continuità presso il Tribunale di Messina e la Corte d'Appello, con una conoscenza approfondita delle prassi e delle procedure degli uffici giudiziari locali. Questa familiarità con il territorio consente di offrire un servizio efficiente e puntuale.
+            <p className="leading-relaxed text-muted-foreground">L'Avv. Annarita Reina opera con continuità presso il Tribunale di Messina, la Corte d'Appello, il Tribunale di Sorveglianza e la Corte di Cassazione con una conoscenza approfondita delle prassi e delle procedure degli uffici giudiziari locali. Questa familiarità con il territorio consente di offrire un servizio efficiente e puntuale.
+
             </p>
           </div>
 
@@ -91,8 +91,8 @@ const PenalePage = () => {
       </section>
 
       <FAQSection faqs={faqsPenale} />
-    </Layout>
-  );
+    </Layout>);
+
 };
 
 export default PenalePage;
