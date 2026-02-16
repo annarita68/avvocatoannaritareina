@@ -15,6 +15,7 @@ const Footer = () => (
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a></p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:3384044547" className="hover:underline">338 404 4547</a></p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> <a href="mailto:annaritareina@virgilio.it" className="hover:underline">annaritareina@virgilio.it</a></p>
+          <p className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> <a href="mailto:avvannaritareina@pec.giuffre.it" className="hover:underline">PEC: avvannaritareina@pec.giuffre.it</a></p>
         </div>
       </div>
 
