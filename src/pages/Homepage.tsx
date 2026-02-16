@@ -39,6 +39,7 @@ const Homepage = () => {
           <h1 className="mb-6 font-serif text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
             Avvocato Penalista Messina<br />
             <span className="text-secondary">Avv. Annarita Reina</span>
+            <span className="block text-lg font-normal italic opacity-80 md:text-xl">Patrocinante in Cassazione</span>
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed opacity-90">
             Studio legale nel centro di Messina. Assistenza qualificata in diritto penale e diritto di famiglia per privati e aziende su Messina e provincia.
