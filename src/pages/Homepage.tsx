@@ -141,6 +141,7 @@ const Homepage = () => {
                 <p className="flex items-center gap-3 text-foreground"><MapPin className="h-5 w-5 text-secondary" /> Via Cesare Battisti, 191, 98123 Messina (ME)</p>
                 <p className="flex items-center gap-3 text-foreground"><Phone className="h-5 w-5 text-secondary" /> <a href="tel:0907384212" className="hover:text-primary hover:underline">090 738 4212</a></p>
                 <p className="flex items-center gap-3 text-foreground"><Mail className="h-5 w-5 text-secondary" /> <a href="mailto:annaritareina@virgilio.it" className="hover:text-primary hover:underline">annaritareina@virgilio.it</a></p>
+                <p className="flex items-center gap-3 text-foreground"><Mail className="h-5 w-5 text-secondary" /> <a href="mailto:avvannaritareina@pec.giuffre.it" className="hover:text-primary hover:underline">PEC: avvannaritareina@pec.giuffre.it</a></p>
               </div>
               <div className="aspect-video overflow-hidden rounded-lg border border-border">
                 <iframe
