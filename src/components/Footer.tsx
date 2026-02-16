@@ -13,6 +13,7 @@ const Footer = () => (
         <div className="space-y-2 text-sm opacity-90">
           <p className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> Via Cesare Battisti, 191, 98123 Messina (ME)</p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a></p>
+          <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:3384044547" className="hover:underline">338 404 4547</a></p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> <a href="mailto:info@studiolegalereina.it" className="hover:underline">info@studiolegalereina.it</a></p>
         </div>
       </div>
