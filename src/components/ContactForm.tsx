@@ -18,7 +18,7 @@ const ContactForm = () => {
     const body = encodeURIComponent(
       `Nome: ${form.nome}\nTelefono: ${form.telefono}\nEmail: ${form.email}\n\nMessaggio:\n${form.messaggio}`
     );
-    window.location.href = `mailto:info@studiolegalereina.it?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:annaritareina@virgilio.it?subject=${subject}&body=${body}`;
     toast({ title: "Grazie per averci contattato", description: "Il tuo client email si aprirà per inviare il messaggio." });
   };
 
