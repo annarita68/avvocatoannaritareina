@@ -61,7 +61,7 @@ const Header = () => {
             </Link>
           ))}
           <Button asChild className="ml-3">
-            <a href="#contatti">Contattaci</a>
+            <a href="/avvocato-penalista-messina#contatti">Contattaci</a>
           </Button>
         </div>
 
@@ -91,7 +91,7 @@ const Header = () => {
             </Link>
           ))}
           <Button asChild className="mt-2 w-full">
-            <a href="#contatti" onClick={() => setMobileOpen(false)}>Contattaci</a>
+            <a href="/avvocato-penalista-messina#contatti" onClick={() => setMobileOpen(false)}>Contattaci</a>
           </Button>
         </div>
       )}
