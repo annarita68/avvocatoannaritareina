@@ -46,7 +46,7 @@ const Homepage = () => {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" variant="secondary" asChild>
-              <a href="#contatti">Richiedi un Appuntamento</a>
+              <a href="mailto:annaritareina@virgilio.it">Richiedi un Appuntamento</a>
             </Button>
             <Button size="lg" variant="secondary" asChild>
               <a href="tel:3384044547">
