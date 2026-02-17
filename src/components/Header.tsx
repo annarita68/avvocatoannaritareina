@@ -26,10 +26,16 @@ const Header = () => {
               Via Cesare Battisti, 191 – 98123 Messina
             </span>
           </div>
-          <a href="tel:0907384212" className="flex items-center gap-1 font-semibold hover:underline">
-            <Phone className="h-3.5 w-3.5" />
-            090 738 4212
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="tel:0907384212" className="flex items-center gap-1 font-semibold hover:underline">
+              <Phone className="h-3.5 w-3.5" />
+              090 738 4212
+            </a>
+            <a href="tel:3384044547" className="flex items-center gap-1 font-semibold hover:underline">
+              <Phone className="h-3.5 w-3.5" />
+              338 404 4547
+            </a>
+          </div>
         </div>
       </div>
 
