@@ -48,8 +48,8 @@ const Homepage = () => {
             <Button size="lg" variant="secondary" asChild>
               <a href="#contatti">Richiedi un Appuntamento</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-              <a href="tel:0907384212">
+            <Button size="lg" variant="secondary" asChild>
+              <a href="tel:3384044547">
                 <Phone className="mr-2 h-4 w-4" /> Chiama Ora
               </a>
             </Button>
