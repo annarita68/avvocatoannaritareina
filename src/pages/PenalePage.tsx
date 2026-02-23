@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Shield, Scale, MapPin } from "lucide-react";
+import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -39,6 +40,20 @@ const PenalePage = () => {
           </nav>
           <h1 className="mb-4 font-serif text-4xl font-bold md:text-5xl">Avvocato Diritto Penale Messina</h1>
           <p className="mx-auto max-w-2xl text-lg opacity-90">Assistenza e difesa penale qualificata presso il Tribunale di Messina e su tutto il territorio provinciale.</p>
+        </div>
+      </section>
+
+      {/* Foto Studio */}
+      <section className="py-12">
+        <div className="container mx-auto max-w-4xl px-4">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <img
+              src={dettaglioStudio}
+              alt="Dettaglio dello studio legale – toga e stampe d'epoca"
+              className="h-72 w-full object-cover md:h-80"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
 

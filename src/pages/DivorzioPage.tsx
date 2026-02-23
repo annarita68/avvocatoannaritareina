@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Scale, MapPin } from "lucide-react";
+import dettaglioSalaRiunioni from "@/assets/dettaglio-sala-riunioni.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -39,6 +40,19 @@ const DivorzioPage = () => {
           </nav>
           <h1 className="mb-4 font-serif text-4xl font-bold md:text-5xl">Avvocato Divorzio Messina</h1>
           <p className="mx-auto max-w-2xl text-lg opacity-90">Consulenza e assistenza legale per il divorzio congiunto e giudiziale a Messina e provincia.</p>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="container mx-auto max-w-4xl px-4">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <img
+              src={dettaglioSalaRiunioni}
+              alt="Dettaglio della sala riunioni dello studio legale"
+              className="h-72 w-full object-cover md:h-80"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Heart, Shield } from "lucide-react";
+import salaRiunioni from "@/assets/sala-riunioni.png";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -38,6 +39,19 @@ const FamigliaPage = () => {
           </nav>
           <h1 className="mb-4 font-serif text-4xl font-bold md:text-5xl">Avvocato Diritto di Famiglia Messina</h1>
           <p className="mx-auto max-w-2xl text-lg opacity-90">Consulenza e assistenza legale in tutte le questioni relative al diritto di famiglia a Messina e provincia.</p>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="container mx-auto max-w-4xl px-4">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <img
+              src={salaRiunioni}
+              alt="Sala riunioni dello studio legale dell'Avv. Annarita Reina"
+              className="h-72 w-full object-cover md:h-80"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
 
