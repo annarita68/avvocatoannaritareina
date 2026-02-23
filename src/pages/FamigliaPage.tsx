@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Heart, Shield } from "lucide-react";
-import salaRiunioni from "@/assets/sala-riunioni.png";
+import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -46,9 +46,9 @@ const FamigliaPage = () => {
         <div className="container mx-auto max-w-4xl px-4">
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
-              src={salaRiunioni}
-              alt="Sala riunioni dello studio legale dell'Avv. Annarita Reina"
-              className="h-72 w-full object-cover md:h-80"
+              src={dettaglioStudio}
+              alt="Dettaglio dello studio legale dell'Avv. Annarita Reina"
+              className="w-full object-contain"
               loading="lazy"
             />
           </div>

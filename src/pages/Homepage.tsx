@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Scale, Users, MapPin, Phone, Mail, Shield, Heart } from "lucide-react";
-import ingressoStudio from "@/assets/ingresso-studio.jpeg";
+import salaRiunioni from "@/assets/sala-riunioni.png";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import ContactForm from "@/components/ContactForm";
@@ -64,8 +64,8 @@ const Homepage = () => {
           <h2 className="mb-10 text-center font-serif text-3xl font-bold text-primary">Lo Studio Legale</h2>
           <div className="mx-auto max-w-4xl overflow-hidden rounded-lg shadow-lg">
             <img
-              src={ingressoStudio}
-              alt="Ingresso dello studio legale dell'Avv. Annarita Reina a Messina"
+              src={salaRiunioni}
+              alt="Sala riunioni dello studio legale dell'Avv. Annarita Reina a Messina"
               className="h-80 w-full object-cover md:h-96"
               loading="lazy"
             />
