@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Shield, Scale, MapPin } from "lucide-react";
-import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
+import dettaglioSalaRiunioni from "@/assets/dettaglio-sala-riunioni.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -48,8 +48,8 @@ const PenalePage = () => {
         <div className="container mx-auto max-w-4xl px-4">
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
-              src={dettaglioStudio}
-              alt="Dettaglio dello studio legale – toga e stampe d'epoca"
+              src={dettaglioSalaRiunioni}
+              alt="Dettaglio della sala riunioni dello studio legale"
               className="h-72 w-full object-cover md:h-80"
               loading="lazy"
             />
