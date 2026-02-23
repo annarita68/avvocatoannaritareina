@@ -49,7 +49,7 @@ const DivorzioPage = () => {
             <img
               src={dettaglioSalaRiunioni}
               alt="Dettaglio della sala riunioni dello studio legale"
-              className="h-72 w-full object-cover md:h-80"
+              className="w-full object-contain"
               loading="lazy"
             />
           </div>

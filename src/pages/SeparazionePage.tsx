@@ -49,7 +49,7 @@ const SeparazionePage = () => {
             <img
               src={studioImg}
               alt="Studio dell'Avv. Annarita Reina – postazione di lavoro"
-              className="h-72 w-full object-cover md:h-80"
+              className="w-full object-contain"
               loading="lazy"
             />
           </div>
