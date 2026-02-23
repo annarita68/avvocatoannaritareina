@@ -1,7 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Scale, Users, MapPin, Phone, Mail, Shield, Heart } from "lucide-react";
-import fotoStudio from "@/assets/foto-studio.jpeg";
+import ingressoStudio from "@/assets/ingresso-studio.jpeg";
+import studioImg from "@/assets/studio.jpeg";
+import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import ContactForm from "@/components/ContactForm";
@@ -61,24 +63,41 @@ const Homepage = () => {
       {/* Presentazione Studio */}
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl grid gap-8 items-center md:grid-cols-2">
+          <h2 className="mb-10 text-center font-serif text-3xl font-bold text-primary">Lo Studio Legale</h2>
+          <div className="mx-auto max-w-5xl grid gap-6 md:grid-cols-3">
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
-                src={fotoStudio}
-                alt="Interno dello studio legale dell'Avv. Annarita Reina a Messina"
-                className="h-full w-full object-cover"
+                src={ingressoStudio}
+                alt="Ingresso dello studio legale dell'Avv. Annarita Reina a Messina"
+                className="h-64 w-full object-cover"
                 loading="lazy"
               />
+              <div className="bg-card p-3 text-center text-sm font-medium text-muted-foreground">Ingresso Studio</div>
             </div>
-            <div>
-              <h2 className="mb-6 font-serif text-3xl font-bold text-primary">Lo Studio Legale</h2>
-              <p className="mb-4 text-lg leading-relaxed text-muted-foreground">
-                Lo studio legale dell'Avv. Annarita Reina, situato in Via Cesare Battisti 191 nel cuore di Messina, offre assistenza legale qualificata con particolare attenzione alle esigenze del cliente.
-              </p>
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                L'attività professionale si concentra prevalentemente nel <strong className="text-foreground">diritto penale</strong> e nel <strong className="text-foreground">diritto di famiglia</strong>, con un approccio attento e personalizzato per ogni singola situazione.
-              </p>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+              <img
+                src={studioImg}
+                alt="Studio dell'Avv. Annarita Reina – postazione di lavoro"
+                className="h-64 w-full object-cover"
+                loading="lazy"
+              />
+              <div className="bg-card p-3 text-center text-sm font-medium text-muted-foreground">Studio</div>
             </div>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+              <img
+                src={dettaglioStudio}
+                alt="Dettaglio dello studio – toga e stampe d'epoca"
+                className="h-64 w-full object-cover"
+                loading="lazy"
+              />
+              <div className="bg-card p-3 text-center text-sm font-medium text-muted-foreground">Dettaglio Studio</div>
+            </div>
+          </div>
+          <div className="mx-auto mt-8 max-w-3xl text-center">
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              Lo studio legale dell'Avv. Annarita Reina, situato in Via Cesare Battisti 191 nel cuore di Messina, offre assistenza legale qualificata con particolare attenzione alle esigenze del cliente.
+              L'attività professionale si concentra prevalentemente nel <strong className="text-foreground">diritto penale</strong> e nel <strong className="text-foreground">diritto di famiglia</strong>, con un approccio attento e personalizzato per ogni singola situazione.
+            </p>
           </div>
         </div>
       </section>
