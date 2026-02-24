@@ -43,57 +43,66 @@ const SeparazionePage = () => {
         </div>
       </section>
 
-      <section className="py-12">
-        <div className="container mx-auto max-w-4xl px-4">
-          <div className="max-w-xs overflow-hidden rounded-lg shadow-lg">
-            <img
-              src={dettaglioStudio}
-              alt="Dettaglio dello studio legale dell'Avv. Annarita Reina"
-              className="w-full object-contain"
-              loading="lazy"
-            />
+      <section className="py-16">
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="flex flex-col items-start gap-10 md:flex-row">
+            <div className="w-full shrink-0 md:w-64">
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src={dettaglioStudio}
+                  alt="Dettaglio dello studio legale dell'Avv. Annarita Reina"
+                  className="w-full object-contain"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="flex-1 space-y-4">
+              <div className="flex items-center gap-3">
+                <Heart className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Separazione Consensuale</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                La separazione consensuale è la soluzione più rapida e meno conflittuale quando i coniugi riescono a trovare un accordo sulle condizioni della separazione. Lo studio assiste nella redazione dell'accordo, nella tutela degli interessi del cliente e nella gestione della procedura davanti al Tribunale o, quando possibile, attraverso la negoziazione assistita.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="grid gap-12 md:grid-cols-2">
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <Users className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Separazione Giudiziale</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                Quando non è possibile raggiungere un accordo, la separazione giudiziale viene richiesta al Tribunale competente. Lo studio predispone il ricorso, assiste durante le udienze e le eventuali fasi istruttorie, impegnandosi nella tutela dei diritti e degli interessi del cliente in ogni fase del procedimento.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <Heart className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Tutela dei Figli</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                In ogni procedimento di separazione, la tutela dei figli rappresenta l'aspetto più delicato e importante. Lo studio si adopera affinché le condizioni di affidamento, collocamento, mantenimento e frequentazione siano definite nel rispetto del superiore interesse dei minori, promuovendo soluzioni che preservino il rapporto con entrambi i genitori.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="py-16">
-        <div className="container mx-auto max-w-4xl px-4 space-y-16">
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Heart className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Separazione Consensuale</h2>
-            </div>
-            <p className="leading-relaxed text-muted-foreground">
-              La separazione consensuale è la soluzione più rapida e meno conflittuale quando i coniugi riescono a trovare un accordo sulle condizioni della separazione. Lo studio assiste nella redazione dell'accordo, nella tutela degli interessi del cliente e nella gestione della procedura davanti al Tribunale o, quando possibile, attraverso la negoziazione assistita.
-            </p>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Users className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Separazione Giudiziale</h2>
-            </div>
-            <p className="leading-relaxed text-muted-foreground">
-              Quando non è possibile raggiungere un accordo, la separazione giudiziale viene richiesta al Tribunale competente. Lo studio predispone il ricorso, assiste durante le udienze e le eventuali fasi istruttorie, impegnandosi nella tutela dei diritti e degli interessi del cliente in ogni fase del procedimento.
-            </p>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Heart className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Tutela dei Figli</h2>
-            </div>
-            <p className="leading-relaxed text-muted-foreground">
-              In ogni procedimento di separazione, la tutela dei figli rappresenta l'aspetto più delicato e importante. Lo studio si adopera affinché le condizioni di affidamento, collocamento, mantenimento e frequentazione siano definite nel rispetto del superiore interesse dei minori, promuovendo soluzioni che preservino il rapporto con entrambi i genitori.
-            </p>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <MapPin className="h-8 w-8 text-secondary" />
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="max-w-2xl space-y-4">
+            <div className="flex items-center gap-3">
+              <MapPin className="h-7 w-7 text-secondary" />
               <h2 className="font-serif text-2xl font-bold text-primary">Operatività su Messina e Provincia</h2>
             </div>
-            <p className="mb-6 leading-relaxed text-muted-foreground">
+            <p className="leading-relaxed text-muted-foreground">
               Lo studio offre assistenza per le procedure di separazione presso il Tribunale di Messina e su tutto il territorio provinciale, garantendo la medesima cura e attenzione indipendentemente dalla sede del procedimento.
             </p>
             <div className="flex flex-wrap gap-3">
