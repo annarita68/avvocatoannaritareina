@@ -18,11 +18,11 @@ const Homepage = () => {
       addressLocality: "Messina",
       postalCode: "98123",
       addressRegion: "ME",
-      addressCountry: "IT",
+      addressCountry: "IT"
     },
     telephone: "+39 090 738 4212",
     areaServed: ["Messina", "Provincia di Messina"],
-    priceRange: "Su appuntamento",
+    priceRange: "Su appuntamento"
   };
 
   return (
@@ -42,8 +42,8 @@ const Homepage = () => {
             <span className="text-secondary">Avv. Annarita Reina</span>
             <span className="block text-lg font-normal italic opacity-80 md:text-xl">Patrocinante in Cassazione</span>
           </h1>
-          <p className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed opacity-90">
-            Studio legale nel centro di Messina. Assistenza qualificata in diritto penale e diritto di famiglia per privati e aziende su Messina e provincia.
+          <p className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed opacity-90">Studio legale nel centro di Messina. Assistenza qualificata in diritto penale e diritto di famiglia su Messina e provincia.
+
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" variant="secondary" asChild>
@@ -67,8 +67,8 @@ const Homepage = () => {
               src={salaRiunioni}
               alt="Sala riunioni dello studio legale dell'Avv. Annarita Reina a Messina"
               className="h-80 w-full object-cover md:h-96"
-              loading="lazy"
-            />
+              loading="lazy" />
+
           </div>
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <p className="text-lg leading-relaxed text-muted-foreground">
@@ -161,8 +161,8 @@ const Homepage = () => {
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+                  referrerPolicy="no-referrer-when-downgrade" />
+
               </div>
             </div>
 
@@ -174,8 +174,8 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>);
+
 };
 
 export default Homepage;
