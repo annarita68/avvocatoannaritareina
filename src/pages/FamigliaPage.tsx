@@ -42,63 +42,72 @@ const FamigliaPage = () => {
         </div>
       </section>
 
-      <section className="py-12">
-        <div className="container mx-auto max-w-4xl px-4">
-          <div className="max-w-xs overflow-hidden rounded-lg shadow-lg">
-            <img
-              src={studioNuovo}
-              alt="Studio legale dell'Avv. Annarita Reina"
-              className="w-full object-contain"
-              loading="lazy"
-            />
+      <section className="py-16">
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="flex flex-col items-start gap-10 md:flex-row">
+            <div className="w-full shrink-0 md:w-64">
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src={studioNuovo}
+                  alt="Studio legale dell'Avv. Annarita Reina"
+                  className="w-full object-contain"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="flex-1 space-y-4">
+              <div className="flex items-center gap-3">
+                <Heart className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Separazioni</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                Lo studio assiste i coniugi in tutte le fasi della separazione, sia consensuale che giudiziale, con un approccio orientato alla risoluzione costruttiva delle controversie e alla tutela degli interessi di entrambe le parti, con particolare attenzione alla posizione dei figli minori.
+              </p>
+              <Button asChild variant="outline" size="sm">
+                <Link to="/avvocato-separazione-messina">Approfondisci: Separazione →</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="grid gap-12 md:grid-cols-2">
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <Users className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Divorzi</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                Assistenza completa nelle procedure di divorzio, sia congiunto che giudiziale, inclusa la definizione degli aspetti patrimoniali, dell'assegno divorzile e dell'affidamento dei figli.
+              </p>
+              <Button asChild variant="outline" size="sm">
+                <Link to="/avvocato-divorzio-messina">Approfondisci: Divorzio →</Link>
+              </Button>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <Shield className="h-7 w-7 text-secondary" />
+                <h2 className="font-serif text-2xl font-bold text-primary">Affidamento Minori</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                La tutela dei minori è una priorità assoluta in ogni procedimento familiare. Lo studio si impegna affinché le decisioni relative all'affidamento, al collocamento e al diritto di visita vengano assunte nel rispetto del superiore interesse del minore, favorendo soluzioni condivise quando possibile.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="py-16">
-        <div className="container mx-auto max-w-4xl px-4 space-y-16">
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Heart className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Separazioni</h2>
-            </div>
-            <p className="mb-4 leading-relaxed text-muted-foreground">
-              Lo studio assiste i coniugi in tutte le fasi della separazione, sia consensuale che giudiziale, con un approccio orientato alla risoluzione costruttiva delle controversie e alla tutela degli interessi di entrambe le parti, con particolare attenzione alla posizione dei figli minori.
-            </p>
-            <Button asChild variant="outline" size="sm">
-              <Link to="/avvocato-separazione-messina">Approfondisci: Separazione →</Link>
-            </Button>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Users className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Divorzi</h2>
-            </div>
-            <p className="mb-4 leading-relaxed text-muted-foreground">
-              Assistenza completa nelle procedure di divorzio, sia congiunto che giudiziale, inclusa la definizione degli aspetti patrimoniali, dell'assegno divorzile e dell'affidamento dei figli.
-            </p>
-            <Button asChild variant="outline" size="sm">
-              <Link to="/avvocato-divorzio-messina">Approfondisci: Divorzio →</Link>
-            </Button>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Shield className="h-8 w-8 text-secondary" />
-              <h2 className="font-serif text-2xl font-bold text-primary">Affidamento Minori</h2>
-            </div>
-            <p className="leading-relaxed text-muted-foreground">
-              La tutela dei minori è una priorità assoluta in ogni procedimento familiare. Lo studio si impegna affinché le decisioni relative all'affidamento, al collocamento e al diritto di visita vengano assunte nel rispetto del superiore interesse del minore, favorendo soluzioni condivise quando possibile.
-            </p>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center gap-3">
-              <Users className="h-8 w-8 text-secondary" />
+        <div className="container mx-auto max-w-5xl px-4">
+          <div className="max-w-2xl space-y-4">
+            <div className="flex items-center gap-3">
+              <Users className="h-7 w-7 text-secondary" />
               <h2 className="font-serif text-2xl font-bold text-primary">Modifica delle Condizioni</h2>
             </div>
-            <p className="mb-6 leading-relaxed text-muted-foreground">
+            <p className="leading-relaxed text-muted-foreground">
               Quando le circostanze cambiano in modo significativo, è possibile richiedere la modifica delle condizioni di separazione o di divorzio già stabilite. Lo studio assiste nella valutazione dei presupposti e nella presentazione del ricorso.
             </p>
             <Button asChild variant="outline">
