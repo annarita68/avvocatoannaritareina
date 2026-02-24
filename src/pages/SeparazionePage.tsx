@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Heart, MapPin } from "lucide-react";
-import studioImg from "@/assets/studio.jpeg";
+import studioImg from "@/assets/studio-nuovo.png";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
