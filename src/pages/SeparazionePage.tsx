@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Heart, MapPin } from "lucide-react";
-import studioImg from "@/assets/studio-nuovo.png";
+import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -45,10 +45,10 @@ const SeparazionePage = () => {
 
       <section className="py-12">
         <div className="container mx-auto max-w-4xl px-4">
-          <div className="overflow-hidden rounded-lg shadow-lg">
+          <div className="max-w-xs overflow-hidden rounded-lg shadow-lg">
             <img
-              src={studioImg}
-              alt="Studio dell'Avv. Annarita Reina – postazione di lavoro"
+              src={dettaglioStudio}
+              alt="Dettaglio dello studio legale dell'Avv. Annarita Reina"
               className="w-full object-contain"
               loading="lazy"
             />
