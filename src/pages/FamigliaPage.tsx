@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Users, Heart, Shield } from "lucide-react";
-import dettaglioStudio from "@/assets/dettaglio-studio.jpeg";
+import studioNuovo from "@/assets/studio-nuovo.png";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import FAQSection from "@/components/FAQSection";
@@ -44,10 +44,10 @@ const FamigliaPage = () => {
 
       <section className="py-12">
         <div className="container mx-auto max-w-4xl px-4">
-          <div className="overflow-hidden rounded-lg shadow-lg">
+          <div className="max-w-xs overflow-hidden rounded-lg shadow-lg">
             <img
-              src={dettaglioStudio}
-              alt="Dettaglio dello studio legale dell'Avv. Annarita Reina"
+              src={studioNuovo}
+              alt="Studio legale dell'Avv. Annarita Reina"
               className="w-full object-contain"
               loading="lazy"
             />
