@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Users, Heart, Shield } from "lucide-react";
+import { Users, Heart, Shield, MapPin, Phone } from "lucide-react";
 import studioNuovo from "@/assets/studio-nuovo.png";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";

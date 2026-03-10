@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Shield, Scale, MapPin } from "lucide-react";
+import { Shield, Scale, MapPin, Phone } from "lucide-react";
 import dettaglioSalaRiunioni from "@/assets/dettaglio-sala-riunioni.jpeg";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
