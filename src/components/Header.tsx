@@ -61,7 +61,7 @@ const Header = () => {
             </Link>
           ))}
           <Button asChild className="ml-3">
-            <a href="/avvocato-penalista-messina#contatti">Contattaci</a>
+            <a href="#contatti">Contattaci</a>
           </Button>
         </div>
 
