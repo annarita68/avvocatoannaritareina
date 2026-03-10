@@ -118,6 +118,25 @@ const SeparazionePage = () => {
       </section>
 
       <FAQSection faqs={faqsSeparazione} />
+
+      <section id="contatti" className="bg-muted py-16 md:py-20">
+        <div className="container mx-auto max-w-4xl px-4 text-center">
+          <h2 className="mb-6 font-serif text-3xl font-bold text-primary">Contatti</h2>
+          <p className="mb-8 text-muted-foreground">Per una consulenza sulla separazione, contatta lo studio.</p>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <Button asChild size="lg">
+              <a href="tel:3384044547">Chiama Ora</a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a href="mailto:annaritareina@virgilio.it">Scrivi un'Email</a>
+            </Button>
+          </div>
+          <p className="mt-6 text-sm text-muted-foreground">
+            <MapPin className="mr-1 inline h-4 w-4" /> Via Cesare Battisti, 191 – 98123 Messina |
+            <Phone className="mx-1 inline h-4 w-4" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a>
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 };
