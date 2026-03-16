@@ -132,7 +132,7 @@ const FamigliaPage = () => {
             </Button>
           </div>
           <p className="mt-6 text-sm text-muted-foreground">
-            <MapPin className="mr-1 inline h-4 w-4" /> Via Cesare Battisti, 191 – 98123 Messina |
+            <MapPin className="mr-1 inline h-4 w-4" /> <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer" className="hover:underline">Via Cesare Battisti, 191 – 98123 Messina</a> |
             <Phone className="mx-1 inline h-4 w-4" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a>
           </p>
           <div className="mt-6 aspect-video overflow-hidden rounded-lg border border-border">
