@@ -164,6 +164,13 @@ const Homepage = () => {
                   referrerPolicy="no-referrer-when-downgrade" />
 
               </div>
+              <div className="mt-4 text-center">
+                <Button asChild variant="outline" size="sm">
+                  <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="mr-2 h-4 w-4" /> Visualizza su Google Maps
+                  </a>
+                </Button>
+              </div>
             </div>
 
             {/* Form */}
