@@ -123,6 +123,13 @@ const PenalePage = () => {
             <MapPin className="mr-1 inline h-4 w-4" /> Via Cesare Battisti, 191 – 98123 Messina |
             <Phone className="mx-1 inline h-4 w-4" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a>
           </p>
+          <div className="mt-4">
+            <Button asChild variant="outline" size="sm">
+              <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer">
+                <MapPin className="mr-2 h-4 w-4" /> Visualizza su Google Maps
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
     </Layout>);
