@@ -155,7 +155,7 @@ const Homepage = () => {
               <div className="aspect-video overflow-hidden rounded-lg border border-border">
                 <iframe
                   title="Studio Legale Avv. Annarita Reina – Messina"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.9!2d15.5543!3d38.1937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVia+Cesare+Battisti%2C+191%2C+98123+Messina+ME!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.9580082314205!2d15.5532674!3d38.1876495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13144e7eec7fdf1f%3A0x7149b9f4b21a2db8!2sAvvocato%20Annarita%20Reina!5e0!3m2!1sit!2sit!4v1773684761918!5m2!1sit!2sit"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
