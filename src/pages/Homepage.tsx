@@ -146,7 +146,7 @@ const Homepage = () => {
             {/* Info + Mappa */}
             <div>
               <div className="mb-6 space-y-3">
-                <p className="flex items-center gap-3 text-foreground"><MapPin className="h-5 w-5 text-secondary" /> Via Cesare Battisti, 191, 98123 Messina (ME)</p>
+                <p className="flex items-center gap-3 text-foreground"><MapPin className="h-5 w-5 text-secondary" /> <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">Via Cesare Battisti, 191, 98123 Messina (ME)</a></p>
                 <p className="flex items-center gap-3 text-foreground"><Phone className="h-5 w-5 text-secondary" /> <a href="tel:0907384212" className="hover:text-primary hover:underline">090 738 4212</a></p>
                 <p className="flex items-center gap-3 text-foreground"><Phone className="h-5 w-5 text-secondary" /> <a href="tel:3384044547" className="hover:text-primary hover:underline">338 404 4547</a></p>
                 <p className="flex items-center gap-3 text-foreground"><Mail className="h-5 w-5 text-secondary" /> <a href="mailto:annaritareina@virgilio.it" className="hover:text-primary hover:underline">annaritareina@virgilio.it</a></p>

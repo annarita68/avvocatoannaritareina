@@ -21,10 +21,10 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground">
         <div className="container mx-auto flex flex-wrap items-center justify-between gap-2 px-4 py-2 text-sm">
           <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1">
+            <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
               <MapPin className="h-3.5 w-3.5" />
               Via Cesare Battisti, 191 – 98123 Messina
-            </span>
+            </a>
           </div>
           <div className="flex items-center gap-4">
             <a href="tel:0907384212" className="flex items-center gap-1 font-semibold hover:underline">
