@@ -11,7 +11,7 @@ const Footer = () => (
           Studio legale operativo a Messina e provincia. Attività prevalente in diritto penale e diritto di famiglia.
         </p>
         <div className="space-y-2 text-sm opacity-90">
-          <p className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> <a href="https://www.google.com/maps/place/Avvocato+Annarita+Reina/@38.1876495,15.5532674,17z/" target="_blank" rel="noopener noreferrer" className="hover:underline">Via Cesare Battisti, 191, 98123 Messina (ME)</a></p>
+          <p className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> <a href="https://maps.app.goo.gl/yL3hLPUjd19X92sJ9" target="_blank" rel="noopener noreferrer" className="hover:underline">Via Cesare Battisti, 191, 98123 Messina (ME)</a></p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:0907384212" className="hover:underline">090 738 4212</a></p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> <a href="tel:3384044547" className="hover:underline">338 404 4547</a></p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> <a href="mailto:annaritareina@virgilio.it" className="hover:underline">annaritareina@virgilio.it</a></p>
