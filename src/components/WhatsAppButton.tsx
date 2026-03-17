@@ -1,5 +1,3 @@
-import { MessageCircle } from "lucide-react";
-
 const WhatsAppButton = () => {
   return (
     <a
@@ -7,9 +5,19 @@ const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contattaci su WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:shadow-xl animate-bounce"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg transition-transform hover:scale-110 hover:shadow-xl animate-bounce"
     >
-      <MessageCircle className="h-7 w-7" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.216 175.552" className="h-8 w-8">
+        <defs>
+          <linearGradient id="wa-grad" x1="85.915" x2="86.535" y1="32.567" y2="137.092" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stopColor="#57d163" />
+            <stop offset="1" stopColor="#23b33a" />
+          </linearGradient>
+        </defs>
+        <path fill="#fff" d="M87.184 25.227c-33.733 0-61.166 27.423-61.178 61.13a60.978 60.978 0 0 0 9.349 32.535l1.455 2.313-6.179 22.558 23.146-6.069 2.235 1.324a60.938 60.938 0 0 0 31.1 8.523h.028c33.707 0 61.14-27.426 61.153-61.135a60.75 60.75 0 0 0-17.895-43.251 60.72 60.72 0 0 0-43.214-17.928z" />
+        <path fill="url(#wa-grad)" d="M87.184 25.227c-33.733 0-61.166 27.423-61.178 61.13a60.978 60.978 0 0 0 9.349 32.535l1.455 2.313-6.179 22.558 23.146-6.069 2.235 1.324a60.938 60.938 0 0 0 31.1 8.523h.028c33.707 0 61.14-27.426 61.153-61.135a60.75 60.75 0 0 0-17.895-43.251 60.72 60.72 0 0 0-43.214-17.928z" />
+        <path fill="#fff" fillRule="evenodd" d="M68.772 55.603c-1.378-3.061-2.828-3.123-4.137-3.176l-3.524-.043a6.76 6.76 0 0 0-4.894 2.3c-1.682 1.837-6.423 6.272-6.423 15.298 0 9.025 6.577 17.742 7.494 18.97.918 1.226 12.692 20.36 31.334 27.734 15.5 6.131 18.647 4.91 22.014 4.604 3.368-.306 10.862-4.44 12.393-8.726 1.53-4.287 1.53-7.956 1.07-8.724-.46-.765-1.684-1.226-3.525-2.146-1.836-.918-10.86-5.36-12.543-5.97-1.682-.613-2.905-.919-4.13.918-1.225 1.836-4.746 5.97-5.816 7.196-1.07 1.228-2.143.918-3.98.306-6.296-2.394-11.946-6.07-16.35-10.996-4.584-5.058-8.08-11.18-9.012-13.06-.612-1.224-.006-1.96.765-2.572.693-.55 1.53-1.378 2.297-2.143.766-.612 1.224-1.225 1.836-2.143.613-.918.307-1.836-.153-2.602-.46-.765-4.085-10.097-5.716-13.805z" clipRule="evenodd" />
+      </svg>
     </a>
   );
 };
